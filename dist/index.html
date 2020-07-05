@@ -1,0 +1,2460 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
+    <link rel="stylesheet" href="css/style.bundle.css" />
+    <title>MAXLINE | Все события</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="header__logo-link"><img src="img/SVG/logo.svg" alt="logo" class="header__logo" /></a>
+      <div class="header__center" id="menu">
+        <div class="header__top">
+          <menu class="header__menu"
+            ><ul class="header__menu__list">
+              <li class="header__menu__item header__menu__item_current header__menu__item_first">
+                <a href="#" class="header__menu__link">Спорт</a>
+              </li>
+              <li class="header__menu__item"><a href="#" class="header__menu__link">Live</a></li>
+              <li class="header__menu__item header__menu__item_dropdown">
+                <a href="#" class="header__menu__link">Tv игры </a
+                ><span class="header__menu__item_dropdown__arrow"></span>
+                <ul class="header__menu__item_dropdown__container">
+                  <li class="header__menu__item_dropdown__item">
+                    <a href="#" class="header__menu__item_dropdown__link">Item</a>
+                  </li>
+                  <li class="header__menu__item_dropdown__item">
+                    <a href="#" class="header__menu__item_dropdown__link">Item 2</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="header__menu__item"><a href="#" class="header__menu__link">Результаты</a></li>
+              <li class="header__menu__item"><a href="#" class="header__menu__link">СТАТИСТИКА</a></li>
+            </ul></menu
+          >
+          <div class="header__time-lang">
+            <div class="lang">
+              <a href="#" class="lang__link"><img src="img/SVG/flag.svg" alt="russia" class="lang__img" /> </a
+              ><span class="lang__arrow"></span>
+              <ul class="lang__container">
+                <li class="lang__item">
+                  <a href="#" class="lang__link"
+                    ><img src="img/SVG/flag.svg" alt="russia" class="lang__img" />
+                    <p class="lang__text">Русский</p></a
+                  >
+                </li>
+                <li class="lang__item">
+                  <a href="#" class="lang__link"
+                    ><img src="img/SVG/flag.svg" alt="russia" class="lang__img" />
+                    <p class="lang__text">Русский</p></a
+                  >
+                </li>
+                <li class="lang__item">
+                  <a href="#" class="lang__link"
+                    ><img src="img/SVG/flag.svg" alt="russia" class="lang__img" />
+                    <p class="lang__text">Русский</p></a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="time">
+              <img src="img/SVG/clock.svg" alt="" class="time__img" />
+              <p class="time__text">13:50 (GMT+3)</p>
+            </div>
+          </div>
+        </div>
+        <div class="header__bottom">
+          <nav class="header__nav">
+            <ul class="header__nav__list">
+              <li class="header__nav__item"><a href="#" class="header__nav__link">Новости</a></li>
+              <li class="header__nav__item"><a href="#" class="header__nav__link">О компании</a></li>
+              <li class="header__nav__item"><a href="#" class="header__nav__link header__nav__link_bold">Адреса</a></li>
+              <li class="header__nav__item"><a href="#" class="header__nav__link">Платежи</a></li>
+              <li class="header__nav__item">
+                <a href="#" class="header__nav__link"
+                  ><img src="img/SVG/chat.svg" alt="" class="header__nav__img" /> Чат</a
+                >
+              </li>
+              <li class="header__nav__item">
+                <a href="#" class="header__nav__link header__nav__link_bold"
+                  ><img src="img/SVG/bonus.svg" alt="" class="header__nav__img" /> Бонус 4%</a
+                >
+              </li>
+              <li class="header__nav__item header__nav__item_search">
+                <input placeholder="Поиск" id="search" class="header__nav__search" />
+              </li>
+            </ul>
+          </nav>
+          <div class="header__mobile-apps">
+            <div class="header__mobile-apps__text">
+              <img src="img/SVG/phone.svg" alt="phone" class="header__mobile-apps__img" /> Мобильная версия
+            </div>
+            <a href="#" class="header__mobile-apps__btn header__mobile-apps__btn_android"
+              ><img src="img/SVG/android.svg" alt="" class="header__mobile-apps__btn-img" /> </a
+            ><a href="#" class="header__mobile-apps__btn"
+              ><img src="img/SVG/app-store.svg" alt="" class="header__mobile-apps__btn-img"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <form action="" class="header__form">
+        <div class="header__form__inputs">
+          <input placeholder="Логин" type="email" class="header__form__input" />
+          <input placeholder="Пароль" type="password" class="header__form__input" />
+        </div>
+        <a href="#" class="header__form__forgot-pass">Забыли пароль?</a>
+        <div class="header__form__buttons">
+          <button class="header__form__button header__form__button_green">Войти</button>
+          <a href="#" class="header__form__button header__form__button_red">Регистрация</a>
+        </div>
+      </form>
+      <div class="whopper">
+        <div class="whopper__line whopper__line_1"></div>
+        <div class="whopper__line whopper__line_2"></div>
+        <div class="whopper__line whopper__line_3"></div>
+      </div>
+    </header>
+    <main class="main">
+      <aside class="left-sidebar">
+        <h2 class="left-sidebar__title">Виды спорта</h2>
+        <div class="left-sidebar__tabs tabs-navigation">
+          <a
+            href="#allEvents"
+            class="left-sidebar__tab left-sidebar__tab_border active tabs-navigation__tab"
+            data-navigation="left-sidebar"
+            >Все события</a
+          >
+          <a href="#live" class="left-sidebar__tab tabs-navigation__tab" data-navigation="left-sidebar">LIVE</a>
+        </div>
+        <div class="tabs-container active" id="allEvents" data-navigation="left-sidebar">
+          <ul class="left-sidebar__list tabs-navigation">
+            <li class="left-sidebar__item left-sidebar__item_location">
+              <img src="img/SVG/sidebar-icons/star.svg" alt="" class="left-sidebar__icon" />
+              <span class="left-sidebar__text">Избранное</span> <span class="left-sidebar__numbers">45</span>
+            </li>
+            <li class="left-sidebar__item left-sidebar__item_sport accordion">
+              <img src="img/SVG/sidebar-icons/football.svg" alt="" class="left-sidebar__icon" />
+              <span class="left-sidebar__text">Футбол</span> <span class="left-sidebar__arrow"></span>
+            </li>
+            <ul class="left-sidebar__list-in">
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/cup.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Клубы. Международные</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/brasil.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Бразилия</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/denmark.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Дания</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/poland.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Польша</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/corea.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Республика Корея</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/scotland.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Шотландия</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+            </ul>
+            <li class="left-sidebar__item left-sidebar__item_sport accordion">
+              <img src="img/SVG/sidebar-icons/tennis.svg" alt="" class="left-sidebar__icon" />
+              <span class="left-sidebar__text">Теннис</span> <span class="left-sidebar__arrow"></span>
+            </li>
+            <ul class="left-sidebar__list-in">
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/cup.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Клубы. Международные</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/brasil.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Бразилия</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/denmark.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Дания</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/poland.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Польша</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/corea.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Республика Корея</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/scotland.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Шотландия</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+            </ul>
+            <li class="left-sidebar__item left-sidebar__item_sport accordion">
+              <img src="img/SVG/sidebar-icons/basketball.svg" alt="" class="left-sidebar__icon" />
+              <span class="left-sidebar__text">Баскетбол</span> <span class="left-sidebar__arrow"></span>
+            </li>
+            <ul class="left-sidebar__list-in">
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/cup.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Клубы. Международные</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/brasil.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Бразилия</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/denmark.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Дания</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/poland.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Польша</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/corea.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Республика Корея</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/scotland.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Шотландия</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+            </ul>
+            <li class="left-sidebar__item left-sidebar__item_sport accordion">
+              <img src="img/SVG/sidebar-icons/volleyball.svg" alt="" class="left-sidebar__icon" />
+              <span class="left-sidebar__text">Волейбол</span> <span class="left-sidebar__arrow"></span>
+            </li>
+            <ul class="left-sidebar__list-in">
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/cup.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Клубы. Международные</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/brasil.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Бразилия</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/denmark.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Дания</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/poland.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Польша</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/corea.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Республика Корея</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/scotland.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Шотландия</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+            </ul>
+            <li class="left-sidebar__item left-sidebar__item_sport accordion">
+              <img src="img/SVG/sidebar-icons/hockey.svg" alt="" class="left-sidebar__icon" />
+              <span class="left-sidebar__text">Хоккей</span> <span class="left-sidebar__arrow"></span>
+            </li>
+            <ul class="left-sidebar__list-in">
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/cup.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Хоккей</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/brasil.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Бразилия</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/denmark.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Дания</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/poland.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Польша</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/corea.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Республика Корея</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/scotland.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Шотландия</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+            </ul>
+            <li class="left-sidebar__item left-sidebar__item_sport accordion">
+              <img src="img/SVG/sidebar-icons/handball.svg" alt="" class="left-sidebar__icon" />
+              <span class="left-sidebar__text">Гандбол</span> <span class="left-sidebar__arrow"></span>
+            </li>
+            <ul class="left-sidebar__list-in">
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/cup.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Хоккей</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/brasil.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Бразилия</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/denmark.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Дания</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/poland.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Польша</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/corea.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Республика Корея</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/scotland.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Шотландия</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+            </ul>
+            <li class="left-sidebar__item left-sidebar__item_sport accordion">
+              <img src="img/SVG/sidebar-icons/cyberSport.svg" alt="" class="left-sidebar__icon" />
+              <span class="left-sidebar__text">Киберспорт</span> <span class="left-sidebar__arrow"></span>
+            </li>
+            <ul class="left-sidebar__list-in">
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/cup.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Хоккей</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/brasil.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Бразилия</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/denmark.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Дания</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/poland.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Польша</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/corea.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Республика Корея</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/scotland.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Шотландия</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+            </ul>
+          </ul>
+        </div>
+        <div class="tabs-container" id="live" data-navigation="left-sidebar">
+          <ul class="left-sidebar__list tabs-navigation">
+            <li class="left-sidebar__item left-sidebar__item_location">
+              <img src="img/SVG/sidebar-icons/star.svg" alt="" class="left-sidebar__icon" />
+              <span class="left-sidebar__text">Избранное</span> <span class="left-sidebar__numbers">222</span>
+            </li>
+            <li class="left-sidebar__item left-sidebar__item_sport accordion">
+              <img src="img/SVG/sidebar-icons/football.svg" alt="" class="left-sidebar__icon" />
+              <span class="left-sidebar__text">Футбол</span> <span class="left-sidebar__arrow"></span>
+            </li>
+            <ul class="left-sidebar__list-in">
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/cup.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Клубы. Международные</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/brasil.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Бразилия</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/denmark.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Дания</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/poland.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Польша</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/corea.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Республика Корея</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/scotland.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Шотландия</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+            </ul>
+            <li class="left-sidebar__item left-sidebar__item_sport accordion">
+              <img src="img/SVG/sidebar-icons/tennis.svg" alt="" class="left-sidebar__icon" />
+              <span class="left-sidebar__text">Теннис</span> <span class="left-sidebar__arrow"></span>
+            </li>
+            <ul class="left-sidebar__list-in">
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/cup.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Клубы. Международные</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/brasil.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Бразилия</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/denmark.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Дания</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/poland.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Польша</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/corea.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Республика Корея</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/scotland.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Шотландия</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+            </ul>
+            <li class="left-sidebar__item left-sidebar__item_sport accordion">
+              <img src="img/SVG/sidebar-icons/basketball.svg" alt="" class="left-sidebar__icon" />
+              <span class="left-sidebar__text">Баскетбол</span> <span class="left-sidebar__arrow"></span>
+            </li>
+            <ul class="left-sidebar__list-in">
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/cup.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Клубы. Международные</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/brasil.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Бразилия</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/denmark.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Дания</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/poland.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Польша</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/corea.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Республика Корея</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/scotland.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Шотландия</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+            </ul>
+            <li class="left-sidebar__item left-sidebar__item_sport accordion">
+              <img src="img/SVG/sidebar-icons/volleyball.svg" alt="" class="left-sidebar__icon" />
+              <span class="left-sidebar__text">Волейбол</span> <span class="left-sidebar__arrow"></span>
+            </li>
+            <ul class="left-sidebar__list-in">
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/cup.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Клубы. Международные</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/brasil.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Бразилия</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/denmark.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Дания</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/poland.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Польша</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/corea.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Республика Корея</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/scotland.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Шотландия</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+            </ul>
+            <li class="left-sidebar__item left-sidebar__item_sport accordion">
+              <img src="img/SVG/sidebar-icons/hockey.svg" alt="" class="left-sidebar__icon" />
+              <span class="left-sidebar__text">Хоккей</span> <span class="left-sidebar__arrow"></span>
+            </li>
+            <ul class="left-sidebar__list-in">
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/cup.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Хоккей</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/brasil.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Бразилия</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/denmark.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Дания</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/poland.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Польша</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/corea.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Республика Корея</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/scotland.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Шотландия</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+            </ul>
+            <li class="left-sidebar__item left-sidebar__item_sport accordion">
+              <img src="img/SVG/sidebar-icons/handball.svg" alt="" class="left-sidebar__icon" />
+              <span class="left-sidebar__text">Гандбол</span> <span class="left-sidebar__arrow"></span>
+            </li>
+            <ul class="left-sidebar__list-in">
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/cup.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Хоккей</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/brasil.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Бразилия</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/denmark.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Дания</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/poland.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Польша</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/corea.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Республика Корея</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/scotland.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Шотландия</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+            </ul>
+            <li class="left-sidebar__item left-sidebar__item_sport accordion">
+              <img src="img/SVG/sidebar-icons/cyberSport.svg" alt="" class="left-sidebar__icon" />
+              <span class="left-sidebar__text">Киберспорт</span> <span class="left-sidebar__arrow"></span>
+            </li>
+            <ul class="left-sidebar__list-in">
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/cup.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Хоккей</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/brasil.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Бразилия</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/denmark.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Дания</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/poland.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Польша</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/corea.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Республика Корея</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+              <li class="left-sidebar__item left-sidebar__item_location accordion">
+                <img src="img/SVG/sidebar-icons/scotland.svg" alt="" class="left-sidebar__icon" />
+                <span class="left-sidebar__text">Шотландия</span>
+                <span class="left-sidebar__arrow left-sidebar__arrow_grey"></span>
+              </li>
+              <ul class="left-sidebar__list-in">
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/plus-league.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Мужчины. Плюслига</span>
+                </li>
+                <li class="left-sidebar__item left-sidebar__item_event">
+                  <img src="img/SVG/sidebar-icons/womens.svg" alt="" class="left-sidebar__icon" />
+                  <span class="left-sidebar__text left-sidebar__text_no-border">Женшины. LSK</span>
+                </li>
+              </ul>
+            </ul>
+          </ul>
+        </div>
+      </aside>
+      <div class="game-line">
+        <div class="crumbs">
+          <a href="#" class="crumbs__item">Главная</a> <a href="#" class="crumbs__item">LIVE</a>
+          <a href="#" class="crumbs__item">Counter-StrikeLOOTBET</a>
+          <a href="#" class="crumbs__item crumbs__item_last">Season 6.</a>
+        </div>
+        <h3 class="game-line__title">
+          <img src="img/SVG/sidebar-icons/white-ball.svg" alt="" class="game-line__title-img" /> Футбол. NBA 2K.
+          Регулярный кубок. 4х5 мин.
+        </h3>
+        <div class="game-line__main-table">
+          <div class="game-line__main-table__header">
+            <div class="game-line__main-table__big-column">Название события</div>
+            <div class="game-line__main-table__column">1</div>
+            <div class="game-line__main-table__column">X</div>
+            <div class="game-line__main-table__column">2</div>
+            <div class="game-line__main-table__column">1X</div>
+            <div class="game-line__main-table__column">12</div>
+            <div class="game-line__main-table__column">X2</div>
+            <div class="game-line__main-table__column">Ф1</div>
+            <div class="game-line__main-table__column">Ф2</div>
+            <div class="game-line__main-table__column">М</div>
+            <div class="game-line__main-table__column">Б</div>
+          </div>
+          <div class="game-line__main-table__row">
+            <div class="game-line__main-table__row-big-column">
+              <div class="game-line__main-table__row-big-column__icons-time">
+                <div class="game-line__main-table__row-big-column__icons">
+                  <a href="#" class="game-line__main-table__row-big-column__icon-link"
+                    ><img src="img/SVG/line/star.svg" alt="" class="game-line__main-table__row-big-column__icon" /> </a
+                  ><a href="#" class="game-line__main-table__row-big-column__icon-link"
+                    ><img src="img/SVG/line/field.svg" alt="" class="game-line__main-table__row-big-column__icon" /> </a
+                  ><a href="#" class="game-line__main-table__row-big-column__icon-link"
+                    ><img src="img/SVG/line/play.svg" alt="" class="game-line__main-table__row-big-column__icon" /> </a
+                  ><a href="#" class="game-line__main-table__row-big-column__icon-link"
+                    ><img src="img/SVG/line/tv.svg" alt="" class="game-line__main-table__row-big-column__icon"
+                  /></a>
+                </div>
+                <div class="game-line__main-table__row-big-column__time">14:35</div>
+              </div>
+              <div class="game-line__main-table__row-big-column__teams-score">
+                <div class="game-line__main-table__row-big-column__teams">
+                  <p class="game-line__main-table__row-big-column__team">Вестерн Сидней Уондерерз</p>
+                  <p class="game-line__main-table__row-big-column__team">Ньюкасл Джетс</p>
+                </div>
+                <div class="game-line__main-table__row-big-column__score">
+                  <span class="game-line__main-table__row-big-column__score_bold">77:72 </span>(16:25, 23:23, 14:10,
+                  24:14)
+                </div>
+              </div>
+              <div class="game-line__main-table__row-big-column__statistic">
+                <a href="#" class="game-line__main-table__row-big-column__statistic-link"
+                  ><img
+                    src="img/SVG/line/statistic.svg"
+                    alt=""
+                    class="game-line__main-table__row-big-column__statistic-img"
+                /></a>
+                <p class="game-line__main-table__row-big-column__numbers">
+                  <span class="game-line__main-table__row-big-column__number-green">64:00</span>
+                  <span class="game-line__main-table__row-big-column__number-black">+124</span>
+                </p>
+              </div>
+            </div>
+            <div class="game-line__main-table__row-column">
+              <p class="game-line__main-table__row-column-content game-line__main-table__row-column-content_up">2.23</p>
+            </div>
+            <div class="game-line__main-table__row-column">
+              <p class="game-line__main-table__row-column-content">4.3</p>
+            </div>
+            <div class="game-line__main-table__row-column">
+              <p class="game-line__main-table__row-column-content game-line__main-table__row-column-content_down">
+                1.23
+              </p>
+            </div>
+            <div class="game-line__main-table__row-column">
+              <p class="game-line__main-table__row-column-content">-</p>
+            </div>
+            <div class="game-line__main-table__row-column">
+              <p class="game-line__main-table__row-column-content">-</p>
+            </div>
+            <div class="game-line__main-table__row-column">
+              <p class="game-line__main-table__row-column-content">-</p>
+            </div>
+            <div class="game-line__main-table__row-column">
+              <p class="game-line__main-table__row-column-content game-line__main-table__row-column-content_up-arrow">
+                <span class="game-line__main-table__row-column-content_small">(+5.0)</span>
+                <span class="underline">1.81</span>
+              </p>
+            </div>
+            <div class="game-line__main-table__row-column">
+              <p class="game-line__main-table__row-column-content game-line__main-table__row-column-content_down-arrow">
+                <span class="game-line__main-table__row-column-content_small">(-5.0)</span>
+                <span class="underline">2.09</span>
+              </p>
+            </div>
+            <div class="game-line__main-table__row-column">
+              <p class="game-line__main-table__row-column-content">
+                <span class="game-line__main-table__row-column-content_small">(6.0)</span>
+                <span class="underline">2.05</span>
+              </p>
+            </div>
+            <div class="game-line__main-table__row-column">
+              <p class="game-line__main-table__row-column-content">
+                <span class="game-line__main-table__row-column-content_small">(6.0)</span>
+                <span class="underline">1.82</span>
+              </p>
+            </div>
+          </div>
+          <div class="game-line__main-table__row">
+            <div class="game-line__main-table__row-big-column">
+              <h4 class="game-line__main-table__row-big-column__title">1-я карта</h4>
+            </div>
+            <div class="game-line__main-table__row-column">
+              <p class="game-line__main-table__row-column-content game-line__main-table__row-column-content_up">2.23</p>
+            </div>
+            <div class="game-line__main-table__row-column">
+              <p class="game-line__main-table__row-column-content">4.3</p>
+            </div>
+            <div class="game-line__main-table__row-column">
+              <p class="game-line__main-table__row-column-content game-line__main-table__row-column-content_down">
+                1.23
+              </p>
+            </div>
+            <div class="game-line__main-table__row-column">
+              <p class="game-line__main-table__row-column-content">-</p>
+            </div>
+            <div class="game-line__main-table__row-column">
+              <p class="game-line__main-table__row-column-content">-</p>
+            </div>
+            <div class="game-line__main-table__row-column">
+              <p class="game-line__main-table__row-column-content">-</p>
+            </div>
+            <div class="game-line__main-table__row-column">
+              <p class="game-line__main-table__row-column-content game-line__main-table__row-column-content_up-arrow">
+                <span class="game-line__main-table__row-column-content_small">(+5.0)</span>
+                <span class="underline">1.81</span>
+              </p>
+            </div>
+            <div class="game-line__main-table__row-column">
+              <p class="game-line__main-table__row-column-content game-line__main-table__row-column-content_down-arrow">
+                <span class="game-line__main-table__row-column-content_small">(-5.0)</span>
+                <span class="underline">2.09</span>
+              </p>
+            </div>
+            <div class="game-line__main-table__row-column">
+              <p class="game-line__main-table__row-column-content">
+                <span class="game-line__main-table__row-column-content_small">(6.0)</span>
+                <span class="underline">2.05</span>
+              </p>
+            </div>
+            <div class="game-line__main-table__row-column">
+              <p class="game-line__main-table__row-column-content">
+                <span class="game-line__main-table__row-column-content_small">(6.0)</span>
+                <span class="underline">1.82</span>
+              </p>
+            </div>
+          </div>
+          <div class="game-line__main-table__row game-line__main-table__row_green-border">
+            <div class="game-line__main-table__row-big-column">
+              <h4 class="game-line__main-table__row-big-column__title">1-я карта</h4>
+            </div>
+            <div class="game-line__main-table__row-column">
+              <p class="game-line__main-table__row-column-content game-line__main-table__row-column-content_up">2.23</p>
+            </div>
+            <div class="game-line__main-table__row-column">
+              <p class="game-line__main-table__row-column-content">4.3</p>
+            </div>
+            <div class="game-line__main-table__row-column">
+              <p class="game-line__main-table__row-column-content game-line__main-table__row-column-content_down">
+                1.23
+              </p>
+            </div>
+            <div class="game-line__main-table__row-column">
+              <p class="game-line__main-table__row-column-content">-</p>
+            </div>
+            <div class="game-line__main-table__row-column">
+              <p class="game-line__main-table__row-column-content">-</p>
+            </div>
+            <div class="game-line__main-table__row-column">
+              <p class="game-line__main-table__row-column-content">-</p>
+            </div>
+            <div class="game-line__main-table__row-column">
+              <p class="game-line__main-table__row-column-content game-line__main-table__row-column-content_up-arrow">
+                <span class="game-line__main-table__row-column-content_small">(+5.0)</span>
+                <span class="underline">1.81</span>
+              </p>
+            </div>
+            <div class="game-line__main-table__row-column">
+              <p class="game-line__main-table__row-column-content game-line__main-table__row-column-content_down-arrow">
+                <span class="game-line__main-table__row-column-content_small">(-5.0)</span>
+                <span class="underline">2.09</span>
+              </p>
+            </div>
+            <div class="game-line__main-table__row-column">
+              <p class="game-line__main-table__row-column-content">
+                <span class="game-line__main-table__row-column-content_small">(6.0)</span>
+                <span class="underline">2.05</span>
+              </p>
+            </div>
+            <div class="game-line__main-table__row-column">
+              <p class="game-line__main-table__row-column-content">
+                <span class="game-line__main-table__row-column-content_small">(6.0)</span>
+                <span class="underline">1.82</span>
+              </p>
+            </div>
+          </div>
+          <div class="game-line__main-table__footer">
+            <div class="game-line__main-table__footer__weather">
+              <p class="game-line__main-table__footer__weather-text">Погода:</p>
+              <div class="game-line__main-table__footer__weather__item">
+                <img src="img/SVG/line/weather.svg" alt="" class="game-line__main-table__footer__weather__img" />
+                <p class="game-line__main-table__footer__weather__text">+5°C</p>
+              </div>
+              <div class="game-line__main-table__footer__weather__item">
+                <img src="img/SVG/line/wind.svg" alt="" class="game-line__main-table__footer__weather__img" />
+                <p class="game-line__main-table__footer__weather__text">0.6</p>
+              </div>
+              <div class="game-line__main-table__footer__weather__item">
+                <img src="img/SVG/line/pressure.svg" alt="" class="game-line__main-table__footer__weather__img" />
+                <p class="game-line__main-table__footer__weather__text">763</p>
+              </div>
+              <div class="game-line__main-table__footer__weather__item">
+                <img src="img/SVG/line/humidity.svg" alt="" class="game-line__main-table__footer__weather__img" />
+                <p class="game-line__main-table__footer__weather__text">69%</p>
+              </div>
+            </div>
+            <div class="game-line__main-table__footer__links">
+              <a href="#" class="game-line__main-table__footer__link"
+                >Стадион
+                <img src="img/SVG/line/stadion.svg" alt="" class="game-line__main-table__footer__link-img" /> </a
+              ><a href="#" class="game-line__main-table__footer__link"
+                >Повторы <img src="img/SVG/line/timer.svg" alt="" class="game-line__main-table__footer__link-img" /> </a
+              ><a href="#" class="game-line__main-table__footer__link"
+                >Статистика <img src="img/SVG/line/gr.svg" alt="" class="game-line__main-table__footer__link-img"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="game-line__filters">
+          <button class="game-line__filters__filter game-line__filters__filter_active game-line__filters__filter_first">
+            Все выборы
+          </button>
+          <button class="game-line__filters__filter">Форы</button>
+          <button class="game-line__filters__filter">Тоталы</button>
+          <button class="game-line__filters__filter">Четверти</button>
+          <button class="game-line__filters__filter">Разное</button>
+        </div>
+        <div class="game-line__default-table">
+          <div class="game-line__default-table__header">
+            <div class="game-line__default-table__header__checkbox"></div>
+            <h4 class="game-line__default-table__header__title">Форы</h4>
+          </div>
+          <div class="game-line__default-table__row">
+            <div class="game-line__default-table__row__column game-line__default-table__row__column_first">
+              <p class="game-line__default-table__row__column__text">Меньше(87.5)</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Меньше(87.5)</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+          </div>
+          <div class="game-line__default-table__row">
+            <div class="game-line__default-table__row__column game-line__default-table__row__column_first">
+              <p class="game-line__default-table__row__column__text">Меньше(87.5)</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Меньше(87.5)</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+          </div>
+        </div>
+        <div class="game-line__default-table">
+          <div class="game-line__default-table__header">
+            <div class="game-line__default-table__header__checkbox"></div>
+            <h4 class="game-line__default-table__header__title">Тоталы</h4>
+          </div>
+          <div class="game-line__default-table__row">
+            <div class="game-line__default-table__row__column game-line__default-table__row__column_first">
+              <p class="game-line__default-table__row__column__text">Меньше(87.5)</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Меньше(87.5)</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+          </div>
+          <div class="game-line__default-table__row">
+            <div class="game-line__default-table__row__column game-line__default-table__row__column_first">
+              <p class="game-line__default-table__row__column__text">Меньше(87.5)</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Меньше(87.5)</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+          </div>
+        </div>
+        <div class="game-line__default-table">
+          <div class="game-line__default-table__header">
+            <div class="game-line__default-table__header__checkbox"></div>
+            <h4 class="game-line__default-table__header__title">Индивидуальный тотал</h4>
+          </div>
+          <div class="game-line__default-table__row">
+            <div
+              class="game-line__default-table__row__column game-line__default-table__row__column_first game-line__default-table__row__column_center"
+            >
+              <p class="game-line__default-table__row__column__text">Меньше(87.5)</p>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Меньше(87.5)</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Меньше(87.5)</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+          </div>
+          <div class="game-line__default-table__row">
+            <div
+              class="game-line__default-table__row__column game-line__default-table__row__column_first game-line__default-table__row__column_center"
+            >
+              <p class="game-line__default-table__row__column__text">Меньше(87.5)</p>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Меньше(87.5)</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Меньше(87.5)</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+          </div>
+          <div class="game-line__default-table__row">
+            <div
+              class="game-line__default-table__row__column game-line__default-table__row__column_first game-line__default-table__row__column_center"
+            >
+              <p class="game-line__default-table__row__column__text">Меньше(87.5)</p>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Меньше(87.5)</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Меньше(87.5)</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+          </div>
+        </div>
+        <div class="game-line__default-table">
+          <div class="game-line__default-table__header">
+            <div class="game-line__default-table__header__checkbox"></div>
+            <h4 class="game-line__default-table__header__title">Индивидуальный тотал</h4>
+          </div>
+          <div class="game-line__default-table__row">
+            <div
+              class="game-line__default-table__row__column game-line__default-table__row__column_first game-line__default-table__row__column_center"
+            >
+              <p class="game-line__default-table__row__column__text">Меньше(87.5)</p>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Меньше(87.5)</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Меньше(87.5)</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Меньше(87.5)</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+          </div>
+          <div class="game-line__default-table__row">
+            <div
+              class="game-line__default-table__row__column game-line__default-table__row__column_first game-line__default-table__row__column_center"
+            >
+              <p class="game-line__default-table__row__column__text">Меньше(87.5)</p>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Меньше(87.5)</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Меньше(87.5)</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Меньше(87.5)</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+          </div>
+          <div class="game-line__default-table__row">
+            <div
+              class="game-line__default-table__row__column game-line__default-table__row__column_first game-line__default-table__row__column_center"
+            >
+              <p class="game-line__default-table__row__column__text">Меньше(87.5)</p>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Меньше(87.5)</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Меньше(87.5)</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Меньше(87.5)</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+          </div>
+        </div>
+        <div class="game-line__default-table">
+          <div class="game-line__default-table__header">
+            <div class="game-line__default-table__header__checkbox"></div>
+            <h4 class="game-line__default-table__header__title">Индивидуальный тотал</h4>
+          </div>
+          <div class="game-line__default-table__row">
+            <div
+              class="game-line__default-table__row__column game-line__default-table__row__column_first game-line__default-table__row__column_center"
+            >
+              <p class="game-line__default-table__row__column__text">Ничья и тотал</p>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Да</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+          </div>
+          <div class="game-line__default-table__row">
+            <div
+              class="game-line__default-table__row__column game-line__default-table__row__column_first game-line__default-table__row__column_center"
+            >
+              <p class="game-line__default-table__row__column__text">Ничья и тотал</p>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Да</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+          </div>
+          <div class="game-line__default-table__row">
+            <div
+              class="game-line__default-table__row__column game-line__default-table__row__column_first game-line__default-table__row__column_center"
+            >
+              <p class="game-line__default-table__row__column__text">Ничья и тотал</p>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Да</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+          </div>
+        </div>
+        <div class="game-line__default-table">
+          <div class="game-line__default-table__header">
+            <div class="game-line__default-table__header__checkbox"></div>
+            <h4 class="game-line__default-table__header__title">Индивидуальный тотал</h4>
+          </div>
+          <div class="game-line__default-table__row">
+            <div
+              class="game-line__default-table__row__column game-line__default-table__row__column_first game-line__default-table__row__column_center"
+            >
+              <p class="game-line__default-table__row__column__text">Ничья и тотал</p>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Да</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+          </div>
+          <div class="game-line__default-table__row">
+            <div
+              class="game-line__default-table__row__column game-line__default-table__row__column_first game-line__default-table__row__column_center"
+            >
+              <p class="game-line__default-table__row__column__text">Ничья и тотал</p>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Да</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+          </div>
+          <div class="game-line__default-table__row">
+            <div
+              class="game-line__default-table__row__column game-line__default-table__row__column_first game-line__default-table__row__column_center"
+            >
+              <p class="game-line__default-table__row__column__text">Ничья и тотал<br />если в 2 строки</p>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Да</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+          </div>
+        </div>
+        <div class="game-line__default-table">
+          <div class="game-line__default-table__header">
+            <div class="game-line__default-table__header__checkbox"></div>
+            <h4 class="game-line__default-table__header__title">Индивидуальный тотал</h4>
+          </div>
+          <div class="game-line__default-table__row">
+            <div
+              class="game-line__default-table__row__column game-line__default-table__row__column_first game-line__default-table__row__column_center"
+            >
+              <p class="game-line__default-table__row__column__text">Ничья и тотал</p>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Да</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+          </div>
+          <div class="game-line__default-table__row">
+            <div
+              class="game-line__default-table__row__column game-line__default-table__row__column_first game-line__default-table__row__column_center"
+            >
+              <p class="game-line__default-table__row__column__text">Ничья и тотал</p>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Да</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+          </div>
+          <div class="game-line__default-table__row">
+            <div
+              class="game-line__default-table__row__column game-line__default-table__row__column_first game-line__default-table__row__column_center"
+            >
+              <p class="game-line__default-table__row__column__text">Ничья и тотал</p>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Да</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+          </div>
+        </div>
+        <div class="game-line__default-table">
+          <div class="game-line__default-table__header">
+            <h4 class="game-line__default-table__header__checkbox"></h4>
+            <p class="game-line__default-table__header__title">Индивидуальный тотал</p>
+          </div>
+          <div class="game-line__default-table__row">
+            <div
+              class="game-line__default-table__row__column game-line__default-table__row__column_first game-line__default-table__row__column_center"
+            >
+              <p class="game-line__default-table__row__column__text">Ничья и тотал</p>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Да</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+          </div>
+          <div class="game-line__default-table__row">
+            <div
+              class="game-line__default-table__row__column game-line__default-table__row__column_first game-line__default-table__row__column_center"
+            >
+              <p class="game-line__default-table__row__column__text">2 строки какгото<br />текста</p>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Да</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+            <div class="game-line__default-table__row__column">
+              <p class="game-line__default-table__row__column__text">Нет</p>
+              <a href="#" class="game-line__default-table__row__column__link">1.174</a>
+            </div>
+          </div>
+        </div>
+        <div class="game-line__footer"></div>
+      </div>
+      <aside class="right-sidebar">
+        <div class="right-sidebar__header">
+          <h4 class="right-sidebar__header__title">Бонусы</h4>
+          <a href="#" class="right-sidebar__header__link">Все бонусы</a>
+        </div>
+        <div class="right-sidebar__slider default-slider">
+          <div class="right-sidebar__slider__item">
+            <img src="img/slider/1.png" alt="" class="right-sidebar__slider__img" />
+          </div>
+          <div class="right-sidebar__slider__item">
+            <img src="img/slider/2.png" alt="" class="right-sidebar__slider__img" />
+          </div>
+          <div class="right-sidebar__slider__item">
+            <img src="img/slider/3.png" alt="" class="right-sidebar__slider__img" />
+          </div>
+          <div class="right-sidebar__slider__item">
+            <img src="img/slider/4.png" alt="" class="right-sidebar__slider__img" />
+          </div>
+          <div class="right-sidebar__slider__item">
+            <img src="img/slider/5.png" alt="" class="right-sidebar__slider__img" />
+          </div>
+          <div class="right-sidebar__slider__item">
+            <img src="img/slider/6.png" alt="" class="right-sidebar__slider__img" />
+          </div>
+        </div>
+        <div class="right-sidebar__header">
+          <h4 class="right-sidebar__header__title">TV Игры</h4>
+          <a href="#" class="right-sidebar__header__link">Все игры</a>
+        </div>
+        <div class="right-sidebar__tv-game-card">
+          <img src="img/slider/8.png" alt="" class="right-sidebar__tv-game-card__img" />
+          <div class="right-sidebar__tv-game-card__buttons">
+            <a href="#" class="right-sidebar__tv-game-card__link right-sidebar__tv-game-card__link_active">1 бет</a>
+            <a href="#" class="right-sidebar__tv-game-card__link">5 БЭТ</a>
+            <a href="#" class="right-sidebar__tv-game-card__link">7 БЭТ</a>
+            <a href="#" class="right-sidebar__tv-game-card__link">Кено</a>
+          </div>
+        </div>
+        <div class="right-sidebar__tv-game-card">
+          <img src="img/slider/9.png" alt="" class="right-sidebar__tv-game-card__img" />
+          <div class="right-sidebar__tv-game-card__buttons">
+            <a href="#" class="right-sidebar__tv-game-card__link right-sidebar__tv-game-card__link_active">7 из 42</a>
+            <a href="#" class="right-sidebar__tv-game-card__link">6 из 60</a>
+            <a href="#" class="right-sidebar__tv-game-card__link">5 из 36</a>
+          </div>
+        </div>
+        <div class="right-sidebar__header">
+          <h4 class="right-sidebar__header__title">НОВОСТИ КОМПАНИИ</h4>
+          <a href="#" class="right-sidebar__header__link">Все новости</a>
+        </div>
+        <div class="right-sidebar__news-card">
+          <img src="img/slider/10.png" alt="" class="right-sidebar__news-card__img" />
+          <h3 class="right-sidebar__news-card__title">Хамес Родригес хочет уйти из «Баварии» в конце сезона.</h3>
+        </div>
+        <div class="right-sidebar__news-card">
+          <img src="img/slider/10.png" alt="" class="right-sidebar__news-card__img" />
+          <h3 class="right-sidebar__news-card__title">Хамес Родригес хочет уйти из «Баварии» в конце сезона.</h3>
+        </div>
+        <div class="right-sidebar__news-card">
+          <img src="img/slider/10.png" alt="" class="right-sidebar__news-card__img" />
+          <h3 class="right-sidebar__news-card__title">Хамес Родригес хочет уйти из «Баварии» в конце сезона.</h3>
+        </div>
+        <div class="right-sidebar__header">
+          <h4 class="right-sidebar__header__title">НОВОСТИ СПОРТА</h4>
+          <a href="#" class="right-sidebar__header__link">Все новости</a>
+        </div>
+        <div class="right-sidebar__news-card">
+          <img src="img/slider/10.png" alt="" class="right-sidebar__news-card__img" />
+          <h3 class="right-sidebar__news-card__title">Хамес Родригес хочет уйти из «Баварии» в конце сезона.</h3>
+        </div>
+        <div class="right-sidebar__news-card">
+          <img src="img/slider/10.png" alt="" class="right-sidebar__news-card__img" />
+          <h3 class="right-sidebar__news-card__title">Хамес Родригес хочет уйти из «Баварии» в конце сезона.</h3>
+        </div>
+        <div class="right-sidebar__news-card">
+          <img src="img/slider/10.png" alt="" class="right-sidebar__news-card__img" />
+          <h3 class="right-sidebar__news-card__title">Хамес Родригес хочет уйти из «Баварии» в конце сезона.</h3>
+        </div>
+        <iframe
+          src="https://bookmaker-ratings.ru/review/obzor-bukmekerskoj-kontory-maxline/widget/rb-rating"
+          frameborder="0"
+          scrolling="no"
+          width="100%"
+          height="182"
+        ></iframe>
+      </aside>
+    </main>
+    <footer class="footer">
+      <div class="footer__columns">
+        <div class="footer__column">
+          <img src="img/SVG/footer/1.svg" alt="" class="footer__column-img" />
+          <ul class="footer__list">
+            <li class="footer__item"><h5 class="footer__title">Помощь</h5></li>
+            <li class="footer__item"><a href="#" class="footer__link">Maxline FAQ</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Условия</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Правила приёма ставок</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Техническая поддержка</a></li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <img src="img/SVG/footer/2.svg" alt="" class="footer__column-img" />
+          <ul class="footer__list">
+            <li class="footer__item"><h5 class="footer__title">Ссылки</h5></li>
+            <li class="footer__item"><a href="#" class="footer__link">О компании</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Новости</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Платежи</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Чат</a></li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <img src="img/SVG/footer/3.svg" alt="" class="footer__column-img" />
+          <ul class="footer__list">
+            <li class="footer__item"><h5 class="footer__title">Сайт</h5></li>
+            <li class="footer__item"><a href="#" class="footer__link">Спорт</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Live</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Статистика</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Результаты</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Мобильная версия</a></li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <img src="img/SVG/footer/4.svg" alt="" class="footer__column-img" />
+          <ul class="footer__list">
+            <li class="footer__item"><h5 class="footer__title">Дополительные адреса</h5></li>
+            <li class="footer__item"><a href="#" class="footer__link">Зеркало 1</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Зеркало 2</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Зеркало 3</a></li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <img src="img/SVG/footer/5.svg" alt="" class="footer__column-img" />
+          <ul class="footer__list">
+            <li class="footer__item"><h5 class="footer__title">Счёт</h5></li>
+            <li class="footer__item"><a href="#" class="footer__link">Регистрация</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Вход</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Пополнения счёта</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Вывод средств</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Демо счёт</a></li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <img src="img/SVG/footer/6.svg" alt="" class="footer__column-img" />
+          <ul class="footer__list">
+            <li class="footer__item"><h5 class="footer__title">TV Игры</h5></li>
+            <li class="footer__item"><a href="#" class="footer__link">BetGames</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">TVBet</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">GoldenRace</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="sponsor">
+        <div class="sponsor__line"></div>
+        <div class="sponsor__links">
+          <a href="#" class="sponsor__link"><img src="img/footer/1.png" alt="" class="sponsor__img" /> </a
+          ><a href="#" class="sponsor__link"><img src="img/footer/2.png" alt="" class="sponsor__img" /> </a
+          ><a href="#" class="sponsor__link"><img src="img/footer/3.png" alt="" class="sponsor__img" /> </a
+          ><a href="#" class="sponsor__link"><img src="img/footer/4.png" alt="" class="sponsor__img" /> </a
+          ><a href="#" class="sponsor__link"><img src="img/footer/5.png" alt="" class="sponsor__img" /> </a
+          ><a href="#" class="sponsor__link"><img src="img/footer/6.png" alt="" class="sponsor__img" /> </a
+          ><a href="#" class="sponsor__link"><img src="img/footer/7.png" alt="" class="sponsor__img" /> </a
+          ><a href="#" class="sponsor__link"><img src="img/footer/8.png" alt="" class="sponsor__img" /> </a
+          ><a href="#" class="sponsor__link"><img src="img/footer/9.png" alt="" class="sponsor__img" /></a>
+        </div>
+        <div class="sponsor__line"></div>
+      </div>
+      <div class="сopy-block">
+        <img src="img/SVG/logo.svg" alt="" class="сopy-block__logo" />
+        <p class="сopy-block__text">© 2019 Букмекерская компания Maxline Все права защищены.</p>
+        <div class="сopy-block__social">
+          <a href="#" class="сopy-block__social-link"
+            ><img src="img/SVG/footer/7.svg" alt="" class="сopy-block__social-img" /> </a
+          ><a href="#" class="сopy-block__social-link"
+            ><img src="img/SVG/footer/8.svg" alt="" class="сopy-block__social-img" /> </a
+          ><a href="#" class="сopy-block__social-link"
+            ><img src="img/SVG/footer/9.svg" alt="" class="сopy-block__social-img" /> </a
+          ><a href="#" class="сopy-block__social-link"
+            ><img src="img/SVG/footer/10.svg" alt="" class="сopy-block__social-img" /> </a
+          ><a href="#" class="сopy-block__social-link"
+            ><img src="img/SVG/footer/11.svg" alt="" class="сopy-block__social-img" /> </a
+          ><a href="#" class="сopy-block__social-link"
+            ><img src="img/SVG/footer/12.svg" alt="" class="сopy-block__social-img"
+          /></a>
+        </div>
+      </div>
+      <div class="payment-systems">
+        <a href="#" class="payment-systems__link"
+          ><img src="img/SVG/footer/13.svg" alt="" class="payment-systems__img" /> </a
+        ><a href="#" class="payment-systems__link"
+          ><img src="img/SVG/footer/14.svg" alt="" class="payment-systems__img" /> </a
+        ><a href="#" class="payment-systems__link"
+          ><img src="img/SVG/footer/15.svg" alt="" class="payment-systems__img" /> </a
+        ><a href="#" class="payment-systems__link"
+          ><img src="img/SVG/footer/16.svg" alt="" class="payment-systems__img" /> </a
+        ><a href="#" class="payment-systems__link"
+          ><img src="img/SVG/footer/17.svg" alt="" class="payment-systems__img" /> </a
+        ><a href="#" class="payment-systems__link"
+          ><img src="img/SVG/footer/18.svg" alt="" class="payment-systems__img" /> </a
+        ><a href="#" class="payment-systems__link"
+          ><img src="img/SVG/footer/19.svg" alt="" class="payment-systems__img" /> </a
+        ><a href="#" class="payment-systems__link"
+          ><img src="img/SVG/footer/20.svg" alt="" class="payment-systems__img" /> </a
+        ><a href="#" class="payment-systems__link"
+          ><img src="img/SVG/footer/21.svg" alt="" class="payment-systems__img" /> </a
+        ><a href="#" class="payment-systems__link"
+          ><img src="img/SVG/footer/22.svg" alt="" class="payment-systems__img" /> </a
+        ><a href="#" class="payment-systems__link"
+          ><img src="img/SVG/footer/23.svg" alt="" class="payment-systems__img" /> </a
+        ><a href="#" class="payment-systems__link"
+          ><img src="img/SVG/footer/24.svg" alt="" class="payment-systems__img" /> </a
+        ><a href="#" class="payment-systems__link"
+          ><img src="img/SVG/footer/25.svg" alt="" class="payment-systems__img"
+        /></a>
+      </div>
+    </footer>
+    <script src="js/bundle.js"></script>
+  </body>
+</html>
