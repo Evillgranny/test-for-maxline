@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
+    <link rel="stylesheet" href="css/style.bundle.css" />
+
+    <title><%=title%></title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="header__logo-link">
+        <img src="img/SVG/logo.svg" alt="logo" class="header__logo">
+      </a>
+
+      <div class="header__center" id="menu">
+        <div class="header__top">
+          <menu class="header__menu">
+            <ul class="header__menu__list">
+              <li class="header__menu__item header__menu__item_current header__menu__item_first">
+                <a href="#" class="header__menu__link">
+                  Спорт
+                </a>
+              </li>
+
+              <li class="header__menu__item">
+                <a href="#" class="header__menu__link">
+                  Live
+                </a>
+              </li>
+
+              <li class="header__menu__item header__menu__item_dropdown">
+                <a href="#" class="header__menu__link">
+                  Tv игры
+                </a>
+                <span class="header__menu__item_dropdown__arrow"></span>
+                <ul class="header__menu__item_dropdown__container">
+                  <li class="header__menu__item_dropdown__item">
+                    <a href="#" class="header__menu__item_dropdown__link">
+                      Item
+                    </a>
+                  </li>
+                  <li class="header__menu__item_dropdown__item">
+                    <a href="#" class="header__menu__item_dropdown__link">
+                      Item 2
+                    </a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="header__menu__item">
+                <a href="#" class="header__menu__link">
+                  Результаты
+                </a>
+              </li>
+
+              <li class="header__menu__item">
+                <a href="#" class="header__menu__link">
+                  СТАТИСТИКА
+                </a>
+              </li>
+            </ul>
+          </menu>
+
+          <div class="header__time-lang">
+            <div class="lang">
+              <a href="#" class="lang__link">
+                <img src="img/SVG/flag.svg" alt="russia" class="lang__img">
+              </a>
+              <span class="lang__arrow"></span>
+
+              <ul class="lang__container">
+                <li class="lang__item">
+                  <a href="#" class="lang__link">
+                    <img src="img/SVG/flag.svg" alt="russia" class="lang__img">
+                    <p class="lang__text">Русский</p>
+                  </a>
+                </li>
+
+                <li class="lang__item">
+                  <a href="#" class="lang__link">
+                    <img src="img/SVG/flag.svg" alt="russia" class="lang__img">
+                    <p class="lang__text">Русский</p>
+                  </a>
+                </li>
+
+                <li class="lang__item">
+                  <a href="#" class="lang__link">
+                    <img src="img/SVG/flag.svg" alt="russia" class="lang__img">
+                    <p class="lang__text">Русский</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="time">
+              <img src="img/SVG/clock.svg" alt="" class="time__img">
+
+              <p class="time__text">
+                13:50 (GMT+3)
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="header__bottom">
+          <nav class="header__nav">
+            <ul class="header__nav__list">
+              <li class="header__nav__item">
+                <a href="#" class="header__nav__link">
+                  Новости
+                </a>
+              </li>
+              <li class="header__nav__item">
+                <a href="#" class="header__nav__link">
+                  О компании
+                </a>
+              </li>
+              <li class="header__nav__item">
+                <a href="#" class="header__nav__link header__nav__link_bold">
+                  Адреса
+                </a>
+              </li>
+              <li class="header__nav__item">
+                <a href="#" class="header__nav__link">
+                  Платежи
+                </a>
+              </li>
+              <li class="header__nav__item">
+                <a href="#" class="header__nav__link">
+                  <img src="img/SVG/chat.svg" alt="" class="header__nav__img">
+                  Чат
+                </a>
+              </li>
+              <li class="header__nav__item">
+                <a href="#" class="header__nav__link header__nav__link_bold">
+                  <img src="img/SVG/bonus.svg" alt="" class="header__nav__img">
+                  Бонус 4%
+                </a>
+              </li>
+              <li class="header__nav__item header__nav__item_search">
+                <input type="text" placeholder="Поиск" id="search" class="header__nav__search">
+              </li>
+            </ul>
+          </nav>
+
+          <div class="header__mobile-apps">
+            <div class="header__mobile-apps__text">
+              <img src="img/SVG/phone.svg" alt="phone" class="header__mobile-apps__img">
+              Мобильная версия
+            </div>
+
+            <a href="#" class="header__mobile-apps__btn header__mobile-apps__btn_android">
+              <img src="img/SVG/android.svg" alt="" class="header__mobile-apps__btn-img">
+            </a>
+
+            <a href="#" class="header__mobile-apps__btn">
+              <img src="img/SVG/app-store.svg" alt="" class="header__mobile-apps__btn-img">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <form action="" class="header__form">
+          <div class="header__form__inputs">
+            <input placeholder="Логин" type="email" class="header__form__input">
+            <input placeholder="Пароль" type="password" class="header__form__input">
+          </div>
+
+          <a href="#" class="header__form__forgot-pass">Забыли пароль?</a>
+        <div class="header__form__buttons">
+          <button class="header__form__button header__form__button_green">
+            Войти
+          </button>
+
+          <a href="#" class="header__form__button header__form__button_red">
+            Регистрация
+          </a>
+        </div>
+      </form>
+
+      <div class="whopper">
+        <div class="whopper__line whopper__line_1"></div>
+        <div class="whopper__line whopper__line_2"></div>
+        <div class="whopper__line whopper__line_3"></div>
+      </div>
+    </header>
